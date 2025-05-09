@@ -1,0 +1,19 @@
+/* 基础重置样式 */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 确保根元素占满整个视口 */
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+} 
